@@ -1,0 +1,41 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  background: #191919;
+}
+.wrapper {
+  width: 1170px;
+  margin:0 auto;
+
+}
+.main-section{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.telephone {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+.social-facebook {
+  color: #fff;
+}
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.menu-item {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+  .menu-item:hover {
+    color: #c7c6c6;
+
+  }
