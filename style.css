@@ -5,6 +5,9 @@
 }
 .main-header {
   background: #191919;
+  padding: 25px 0;
+}
+
 
 }
 .wrapper {
@@ -16,6 +19,7 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .telephone {
   font-weight: 400;
@@ -29,6 +33,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  margin-top: 25px;
 }
 .menu-item {
   color: #fff;
@@ -40,7 +45,28 @@
     color: #c7c6c6;
 
   }
+  /* Slider
+-----------------------------------------------------------------------------*/
+.wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slide-one {
+  background-image: url(image/photo_1.jpg);
+}
+.slide-two {
+  background-image: url(C:\Users\Luna\Desktop\catmash\catmash\image\photo_1.jpg);
+}
+.slide-three {
+  background-image: url(C:\Users\Luna\Desktop\catmash\catmash\image\photo_1.jpg);
+}
+
+
 .image1 {
-  width: 1920px;
-  height: 666px;
+	width: 100%;
+  overflow: hidden;
+  position: relative;
+  transform: skewY(-3.6deg)
 }
