@@ -44,10 +44,6 @@
     color: #c7c6c6;
 
   }
-  /* Slider
------------------------------------------------------------------------------*/
-
-
 
 .image1 {
 	width: 100%;
@@ -58,4 +54,15 @@
 }
 .image1__img {
   width: 100%;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.image_intro {
+  width: 181px;
+  height: 146px;
 }
