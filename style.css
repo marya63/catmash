@@ -6,10 +6,9 @@
 .main-header {
   background: #191919;
   padding: 25px 0;
+  height: 300px;
 }
 
-
-}
 .wrapper {
   width: 1170px;
   margin:0 auto;
@@ -47,21 +46,7 @@
   }
   /* Slider
 -----------------------------------------------------------------------------*/
-.wrap {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.slide-one {
-  background-image: url(image/photo_1.jpg);
-}
-.slide-two {
-  background-image: url(C:\Users\Luna\Desktop\catmash\catmash\image\photo_1.jpg);
-}
-.slide-three {
-  background-image: url(C:\Users\Luna\Desktop\catmash\catmash\image\photo_1.jpg);
-}
+
 
 
 .image1 {
