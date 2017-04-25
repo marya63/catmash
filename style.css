@@ -5,6 +5,7 @@
 }
 .main-header {
   background: #191919;
+
 }
 .wrapper {
   width: 1170px;
@@ -39,3 +40,7 @@
     color: #c7c6c6;
 
   }
+.image1 {
+  width: 1920px;
+  height: 666px;
+}
