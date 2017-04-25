@@ -6,7 +6,7 @@
 .main-header {
   background: #191919;
   padding: 25px 0;
-  height: 300px;
+  height: 370px;
 }
 
 .wrapper {
@@ -53,5 +53,9 @@
 	width: 100%;
   overflow: hidden;
   position: relative;
-  transform: skewY(-3.6deg)
+  transform: skewY(-3.6deg);
+  margin:-75px 0px 0px 0px;
+}
+.image1__img {
+  width: 100%;
 }
