@@ -598,12 +598,12 @@ margin-left: -150px;
 
 
 .contact {
-
   height: 500px;
   position: relative;
   top: 60px;
   width: 100%;
   overflow: hidden;
+  top: -40;
 
 }
 .wrapper {
@@ -613,14 +613,78 @@ margin-left: -150px;
     width: 100%;
   }
 
-  .contact__left-block {
-      padding-right: 60px;
-      padding-top: 125px;
-      height: 498px;
-      overflow: hidden;
-      padding: 0 15px;
-      width: 50%;
+  .contact__content {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 -15px;
+
   }
+
+ .contact__left-block {
+   padding: 0 15px;
+   width: 50%;
+   height: 498px;
+   overflow: hidden;
+   padding: 0 15px;
+   width: 50%;
+   padding-top: 110px;
+ }
+
+.content__title {
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+
+.content__title--bold {
+  font-weight: 700;
+}
+
+.contact__info {
+  color: #888;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 21px;
+}
+.contact__address {
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+
+.contact__time-work {
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+
+.contact__tel-number {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.contact__email-addres {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.contact__right-block {
+  height: 498px;
+  overflow: hidden;
+  padding: 0 15px;
+  width: 50%;
+  transform: skewY(3.6deg);
+}
+
+.contact__right-block-image{
+  position: relative;
+  width: 100%;
+
+}
+.img {
+    max-width: 100%;
+
+}
 
 .footer {
   overflow: hidden;
