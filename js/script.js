@@ -11,5 +11,5 @@ $(document).ready(function () {
        dotsClass: 'image1__dots'
   });
 
-   $(".line").lightGallery();
+$(".gallery__item").lightGallery();
 });
